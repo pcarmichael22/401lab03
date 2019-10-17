@@ -1,0 +1,21 @@
+{
+  "name": "file-reader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "lint": "eslint **/.js",
+    "test": "jest --coverage --verbose",
+    "test-watch": "jest --watchAll --coverage --verbose"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^5.16.0",
+    "faker": "^4.1.0",
+    "jest": "^24.9.0"
+  }
+}
